@@ -61,7 +61,7 @@ $(function () {
             }
             if (color == 'default-slide') {
                 $('#header').removeClass('header-dark');
-                $('#header').removeClass('header-light');
+                $('#header').removeClass('header-dark');
                 $('#header').addClass('header');
             }
             // console.log("rev slide color: " + color);
