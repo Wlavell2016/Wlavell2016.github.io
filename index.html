@@ -287,7 +287,9 @@
                                 <i class="icon-map-pin"></i>
                             </div>
                             <p class="large">
-                               98 Glenholme Ave Toronto Ontario<br>
+                                39 Queen Street <br />
+                                Manitowaning  Ontario <br />
+                                Canada <br />
                             </p>
                         </div>
                     </div>
@@ -353,16 +355,17 @@
 
    <script>
        function initMap() {
-         var toronto = {lat: 45.560084, lng: -82.009639};
+
+         var toronto = {lat:  45.743004, lng: -81.807677};
          var map = new google.maps.Map(document.getElementById('map'), {
-           zoom: 12,
+           zoom: 9,
            scrollwheel: false,
            center: toronto,
            styles:
            [{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"visibility":"on"}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#495421"}]},{"featureType":"administrative","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"weight":4.1}]},{"featureType":"landscape","elementType":"geometry.fill","stylers":[{"color":"#daebc6"},{"visibility":"on"}]},{"featureType":"landscape.natural.terrain","elementType":"geometry.fill","stylers":[{"color":"#cae9c2"}]},{"featureType":"poi","elementType":"geometry.fill","stylers":[{"color":"#769E72"}]},{"featureType":"poi","elementType":"labels.text.fill","stylers":[{"color":"#7B8758"}]},{"featureType":"poi","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#89d88f"}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"color":"#ff0000"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#459945"}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"}]},{"featureType":"road","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"color":"#ffffff"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#eeeeee"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#d8d8d8"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"geometry","stylers":[{"visibility":"on"},{"color":"#d2f0ef"}]}]
          });
             var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(45.560084,  -82.009639),
+                position: new google.maps.LatLng(45.743004,  -81.807677),
                 map: map,
                 title: 'Nileforest',
                 icon: 'img/map-marker.png'

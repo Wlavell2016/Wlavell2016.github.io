@@ -14,7 +14,10 @@ function init() {
         scrollwheel: false,
 
 
-        center: new google.maps.LatLng(21.170240, 72.831061),
+        // center: new google.maps.LatLng(21.170240, 72.831061),
+
+        center: new google.maps.LatLng(18.793366, 98.986400),
+
 
         styles: [
         {
@@ -209,7 +212,7 @@ function init() {
 
     var map = new google.maps.Map(mapElement, mapOptions);
 
-  
+
     var marker = new google.maps.Marker({
         position: new google.maps.LatLng(21.170240, 72.831061),
         map: map,
